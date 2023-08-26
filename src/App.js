@@ -3,6 +3,8 @@ import { Row, Col } from "antd";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
 
+const data = [{}];
+
 function App() {
   return (
     <div className="App">
@@ -37,7 +39,7 @@ function App() {
         </Row>
       </section>
       <div className="onlyDesktop">
-        <section className=" section section-first">
+        <section className="section section-first">
           <Row>
             <Col
               xs={24}
@@ -57,7 +59,7 @@ function App() {
             </Col>
           </Row>
         </section>
-        <section className=" section section-second">
+        <section className="section section-second">
           <Row>
             <Col
               xs={24}
@@ -79,7 +81,7 @@ function App() {
             </Col>
           </Row>
         </section>
-        <section className=" section section-third">
+        <section className="section section-third">
           <Row>
             <Col
               xs={24}
@@ -106,74 +108,68 @@ function App() {
         showStatus={false}
         showThumbs={false}
       >
-        <div>
-          <section className="section section-first">
-            <Row>
-              <Col
-                xs={24}
-                md={{ span: 15, offset: 9 }}
-                lg={{ span: 12, offset: 12 }}
-              >
-                <div className="section-body">
-                  <div className="main-title">
-                    <span className="idx">01</span>
-                    <span className="title">CONNECTION</span>
-                  </div>
-                  <div className="desc">
-                    Connect with coaches directly, you can ping coaches to view
-                    profile.
-                  </div>
+        <section className="section section-first">
+          <Row>
+            <Col
+              xs={24}
+              md={{ span: 15, offset: 9 }}
+              lg={{ span: 12, offset: 12 }}
+            >
+              <div className="section-body">
+                <div className="main-title">
+                  <span className="idx">01</span>
+                  <span className="title">CONNECTION</span>
                 </div>
-              </Col>
-            </Row>
-          </section>
-        </div>
-        <div>
-          <section className="section section-second">
-            <Row>
-              <Col
-                xs={24}
-                md={{ span: 15, offset: 9 }}
-                lg={{ span: 12, offset: 12 }}
-              >
-                <div className="section-body">
-                  <div className="main-title">
-                    <span className="idx">02</span>
-                    <span className="title">COLLABORATION</span>
-                  </div>
-                  <div className="desc">
-                    Work with other student athletes to  increase visability.
-                    When you share and like other players videos it will
-                    increase your visability as a player. This is the team work
-                    aspect to Surface 1.
-                  </div>
+                <div className="desc">
+                  Connect with coaches directly, you can ping coaches to view
+                  profile.
                 </div>
-              </Col>
-            </Row>
-          </section>
-        </div>
-        <div>
-          <section className="section section-third">
-            <Row>
-              <Col
-                xs={24}
-                md={{ span: 15, offset: 9 }}
-                lg={{ span: 12, offset: 12 }}
-              >
-                <div className="section-body">
-                  <div className="main-title">
-                    <span className="idx">03</span>
-                    <span className="title">GROWTH</span>
-                  </div>
-                  <div className="desc">
-                    Resources and tools for you to get better as a student
-                    Athelte. Access to training classes, tutor sessions, etc 
-                  </div>
+              </div>
+            </Col>
+          </Row>
+        </section>
+        <section className="section section-second">
+          <Row>
+            <Col
+              xs={24}
+              md={{ span: 15, offset: 9 }}
+              lg={{ span: 12, offset: 12 }}
+            >
+              <div className="section-body">
+                <div className="main-title">
+                  <span className="idx">02</span>
+                  <span className="title">COLLABORATION</span>
                 </div>
-              </Col>
-            </Row>
-          </section>
-        </div>
+                <div className="desc">
+                  Work with other student athletes to  increase visability. When
+                  you share and like other players videos it will increase your
+                  visability as a player. This is the team work aspect to
+                  Surface 1.
+                </div>
+              </div>
+            </Col>
+          </Row>
+        </section>
+        <section className="section section-third">
+          <Row>
+            <Col
+              xs={24}
+              md={{ span: 15, offset: 9 }}
+              lg={{ span: 12, offset: 12 }}
+            >
+              <div className="section-body">
+                <div className="main-title">
+                  <span className="idx">03</span>
+                  <span className="title">GROWTH</span>
+                </div>
+                <div className="desc">
+                  Resources and tools for you to get better as a student
+                  Athelte. Access to training classes, tutor sessions, etc 
+                </div>
+              </div>
+            </Col>
+          </Row>
+        </section>
       </Carousel>
       <section className=" section section-top-invert">
         <Row>
@@ -206,7 +202,7 @@ function App() {
         </Row>
       </section>
       <div className="onlyDesktop">
-        <section className=" section section-fourth">
+        <section className="section section-fourth">
           <Row>
             <Col
               xs={24}
@@ -226,7 +222,7 @@ function App() {
             </Col>
           </Row>
         </section>
-        <section className=" section section-fifth">
+        <section className="section section-fifth">
           <Row>
             <Col
               xs={24}
@@ -246,7 +242,7 @@ function App() {
             </Col>
           </Row>
         </section>
-        <section className=" section section-sixth">
+        <section className="section section-sixth">
           <Row>
             <Col
               xs={24}
@@ -272,7 +268,7 @@ function App() {
         showStatus={false}
         showThumbs={false}
       >
-        <section className="onlyDesktop section section-fourth">
+        <section className="section section-fourth">
           <Row>
             <Col
               xs={24}
@@ -292,7 +288,7 @@ function App() {
             </Col>
           </Row>
         </section>
-        <section className="onlyDesktop section section-fifth">
+        <section className="section section-fifth">
           <Row>
             <Col
               xs={24}
@@ -312,7 +308,7 @@ function App() {
             </Col>
           </Row>
         </section>
-        <section className="onlyDesktop section section-sixth">
+        <section className="section section-sixth">
           <Row>
             <Col
               xs={24}
