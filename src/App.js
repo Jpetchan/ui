@@ -3,8 +3,6 @@ import { Row, Col } from "antd";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
 
-const data = [{}];
-
 function App() {
   return (
     <div className="App">
@@ -19,15 +17,15 @@ function App() {
               <picture>
                 <source
                   media="(max-width: 766px)"
-                  srcSet="./footballer.png 766w"
+                  srcSet="./ui/footballer.png 766w"
                   sizes="766px"
                 />
                 <source
                   media="(max-width: 991px)"
-                  srcSet="./footballer-2.png 991w"
+                  srcSet="footballer-2.png 991w"
                   sizes="991px"
                 />
-                <img src="./footballer.png" alt="footballer" />
+                <img src="./ui/footballer.png" alt="footballer" />
               </picture>
             </div>
           </Col>
@@ -187,15 +185,15 @@ function App() {
               <picture>
                 <source
                   media="(max-width: 766px)"
-                  srcSet="./basketball.png 766w"
+                  srcSet="./ui/basketball.png 766w"
                   sizes="766px"
                 />
                 <source
                   media="(max-width: 991px)"
-                  srcSet="./basketball-2.png 991w"
+                  srcSet="./ui/basketball-2.png 991w"
                   sizes="991px"
                 />
-                <img src="./basketball.png" alt="basketball" />
+                <img src="./ui/basketball.png" alt="basketball" />
               </picture>
             </div>
           </Col>
