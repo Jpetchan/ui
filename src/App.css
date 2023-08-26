@@ -1,0 +1,621 @@
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+
+  .carousel .control-dots {
+    margin: 30px 0!important;
+  }
+  .carousel .control-dots .dot.selected {
+    background-color: #5C3CAF !important;
+  }
+  .carousel .control-dots .dot {
+    /* transition: opacity .25s ease-in; */
+    opacity: 1 !important;
+    box-shadow: none !important;
+    background: #D8D8D8 !important;
+    border-radius: 50%;
+    width: 10px !important;
+    height: 10px !important;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 10px !important;
+  }
+  .onlyMobile {
+    display: block;
+  }
+  .onlyDesktop {
+    display: none;
+  }
+  .section div {
+    flex-grow: 1;
+  }
+  .section .section-body {
+    vertical-align: middle;
+  }
+  .header {
+    font-family: 'Roboto', sans-serif;
+    color: #E7E7E7;
+    padding-left: 18px;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .idx {
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    font-size: 14px; 
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.5px;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 8px;
+  }
+  .idx::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 19px;
+    height: 5px;
+    border-radius: 2.5px;
+    background: #603EBE;
+  }
+  .title {
+    font-family: 'Roboto', sans-serif;
+    color: #C2C2C2;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.5px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+  }
+  .main-title {
+    font-family: 'Roboto', sans-serif;
+    color: #C2C2C2;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.5px;
+    display: flex;
+    align-items: center;
+    padding-top: 60px;
+  }
+   .desc {
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    padding-top: 20px;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 717px;
+    text-align: left;
+  }
+  .footballer {
+    position: relative; /* Required for absolute positioning within */
+    width: 100%; /* Set the width of the container */
+    height: 100%; /* Set the height of the container */
+  }
+  .footballer img {
+    width: 100%;
+    max-width: 200px;
+    position: absolute;
+    top: 30%; /* Position the top edge of the image at 50% of the container's height */
+    left: 50%; /* Position the left edge of the image at 50% of the container's width */
+    transform: translate(-50%, -50%); /* Adjust the image position to center it perfectly */
+    z-index: 1;
+  }
+  .basketball {
+    position: relative; /* Required for absolute positioning within */
+    width: 100%; /* Set the width of the container */
+    height: 100%; /* Set the height of the container */
+  }
+  .basketball img {
+    width: 100%;
+    max-width: 302px;;
+    position: absolute;
+    top: 30%; /* Position the top edge of the image at 50% of the container's height */
+    left: 50%; /* Position the left edge of the image at 50% of the container's width */
+    transform: translate(-50%, -50%); /* Adjust the image position to center it perfectly */
+    z-index: 1;
+  }
+  .section-top {
+    background: #fff;
+    min-height: 300px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: row;
+  }
+  .section-top-invert {
+    background: #fff;
+    min-height: 300px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: row;
+  }
+  .section-top-invert .header {
+    padding-top: 20px;
+  }
+  .section-first {
+    background: #F5F4F9;
+    height: 284px;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: row;
+  }
+  .section-second {
+    background: #F5F4F9;
+    height: 284px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+  }
+  .section-third {
+    padding: 20px;
+    background: #F5F4F9;
+    height: 284px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: row;
+  }
+  .section-fourth {
+    background: #F5F4F9;
+    height: 284px;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: row;
+  }
+  .section-fourth .header {
+    padding-top: 124px;
+  }
+  .section-fifth {
+    background: #F5F4F9;
+    height: 284px;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: row;
+  }
+  .section-sixth {
+    background: #F5F4F9;
+    height: 284px;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+  .onlyMobile{
+    display: none;
+  }
+
+  .onlyDesktop {
+    display: unset;
+  }
+  .section div {
+    flex-grow: 1;
+  }
+  .section .section-body {
+    vertical-align: middle;
+  }
+  .header {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 79px;
+    color: #E7E7E7;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 0px;;
+  }
+  .idx {
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    font-size: 18px; 
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.5px;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 8px;
+  }
+  .idx::after {
+    font-family: 'Roboto', sans-serif;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 19px;
+    height: 5px;
+    border-radius: 2.5px;
+    background: #603EBE;
+  }
+  .title {
+    font-family: 'Roboto', sans-serif;
+    color: #C2C2C2;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.5px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+  }
+  .main-title {
+    font-family: 'Roboto', sans-serif;
+    color: #C2C2C2;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.5px;
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+  }
+   .desc {
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    padding-top: 21px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 155.556% */
+    max-width: 480px;
+  }
+  .footballer {
+    padding-left: 0px;
+    padding-top: 121px;
+  }
+  .footballer img {
+   width: 115%;
+   max-width: 678px;
+   height: auto;
+   position: absolute;
+   top: unset; /* Position the top edge of the image at 50% of the container's height */
+   left: unset; /* Position the left edge of the image at 50% of the container's width */
+   transform: unset; /* Adjust the image position to center it perfectly */
+   
+  }
+  .basketball {
+    padding-right: 0px;
+  }
+  .basketball img {
+   width: 150%;
+   max-width: unset;
+   height: auto;
+   position: absolute;
+   top: 33px;
+   right: 0px;
+   left: unset; /* Position the left edge of the image at 50% of the container's width */
+   transform: unset; /* Adjust the image position to center it perfectly */
+  }
+  .section-top {
+    background: #fff;
+    min-height: unset;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: row;
+  }
+  .section-top-invert {
+    background: #fff;
+    min-height: unset;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: row;
+  }
+  .section-top-invert .header {
+    padding-top: 52px;
+  }
+  .section-first {
+    background: #fff;
+    height: 185px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+  }
+  .section-second {
+    background: #F5F4F9;
+    height: 235px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+  }
+  .section-second .desc {
+    max-width: 447px;
+  }
+  .section-third {
+    background: #5E3DB3;
+    height: 207px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+  }
+  .section-third .desc {
+    color: #fff;
+  }
+  .section-third .idx::after {
+    background: #fff;
+  }
+  .section-fourth {
+    background: #fff;
+    height: 184px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+  }
+  .section-fourth .header {
+    padding-top: 51px;
+  }
+  .section-fourth .main-title  {
+    padding-top: 24px;
+  }
+  .section-fifth {
+    background: #F5F4F9;
+    height: 235px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+  }
+  .section-fifth .main-title {
+    padding-top: 51px;
+  }
+  .section-fifth .desc {
+    max-width: 432px;
+  }
+  .section-sixth {
+    background: #090C35;
+    height:207px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+  }
+  .section-sixth .main-title {
+    padding-top: 44px;
+  }
+  .section-sixth .idx {
+    color: #8F6BE8;
+  }
+  .section-sixth .desc {
+    color: #fff;
+  }
+  .section-sixth .idx::after {
+    background: #fff;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+  .onlyMobile{
+    display: none;
+  }
+
+  .onlyDesktop {
+    display: unset;
+  }
+  .section div {
+    flex-grow: 1;
+  }
+  .section .section-body {
+    vertical-align: middle;
+  }
+  .header {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 24px;
+    color: #E7E7E7;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 0px;
+    padding-bottom: 0px;
+  }
+  .idx {
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    font-size: 18px; 
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.5px;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 8px;
+  }
+  .idx::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 19px;
+    height: 5px;
+    border-radius: 2.5px;
+    background: #603EBE;
+  }
+  .title {
+    font-family: 'Roboto', sans-serif;
+    color: #C2C2C2;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.5px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+  }
+  .main-title {
+    font-family: 'Roboto', sans-serif;
+    color: #C2C2C2;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.5px;
+    display: flex;
+    align-items: center;
+    padding-top: 53px;
+  }
+   .desc {
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    padding-top: 31px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    max-width: 717px;
+  }
+  .footballer {
+    padding-left: 175px;
+    padding-top: 35px;
+  }
+  .footballer img {
+   width: 100%;
+   max-width: 678px;
+   height: auto;
+   position: absolute;
+   top: unset; /* Position the top edge of the image at 50% of the container's height */
+   left: unset; /* Position the left edge of the image at 50% of the container's width */
+   transform: unset; /* Adjust the image position to center it perfectly */
+  }
+  .basketball {
+    padding-right: 125px;
+    width: unset;
+  }
+  .basketball img {
+   width: 100%;
+   max-width: 995px;
+   top: 0px;
+   height: auto;
+   position: absolute;
+   right: 125px;
+   top: unset; /* Position the top edge of the image at 50% of the container's height */
+   left: unset; /* Position the left edge of the image at 50% of the container's width */
+   transform: unset; /* Adjust the image position to center it perfectly */
+  }
+  .section-top {
+    background: #fff;
+    /* height: 20px; */
+    min-height: unset;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .section-top-invert {
+   
+    background: #fff;
+    /* height: 20px; */
+    min-height: 0px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: row;
+  }
+  .section-top-invert .header {
+    padding-top: 116px;
+  }
+  .section-first {
+    background: #fff;
+    height: 215px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+  }
+  .section-second {
+
+    background: #F5F4F9;
+    height: 256px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+  }
+  .section-second .desc {
+    max-width: 717px;
+  }
+  .section-third {
+    padding: 0px;
+    background: #5E3DB3;
+    height: 297px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: row;
+  }
+  .section-third .main-title {
+    padding-top: 80px;
+  }
+  .section-third .desc {
+    color: #fff;
+  }
+  .section-third .idx::after {
+    background: #fff;
+  }
+  .section-fourth {
+    padding: 0px;
+    background: #fff;
+    height: 235px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: row;
+  }
+  .section-fourth .main-title {
+    padding-top: 68px;
+  }
+  .section-fourth .desc {
+    max-width: 571px;
+  }
+  .section-fifth {
+    padding: 0px;
+    background: #F5F4F9;
+    height: 245px;
+    min-height: 0px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: row;
+  }
+  .section-sixth {
+    padding: 0px;
+    background: #090C35;
+    height:268px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: row;
+  }
+  .section-sixth .main-title {
+    padding-top: 87px;
+  }
+  .section-sixth .idx {
+    color: #8F6BE8;
+  }
+  .section-sixth .desc {
+    color: #fff;
+  }
+  .section-sixth .idx::after {
+    background: #fff;
+  }
+}
